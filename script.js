@@ -19,7 +19,7 @@ const fetchRecipes = async (query) => {
 
     recipe_container.innerHTML = "";
 
-    response.meals.forEach((meal) => {
+    response.meals.forEach((meal) => { 
       const recipeDiv = document.createElement("div");
       recipeDiv.classList.add("recipe");
       recipeDiv.innerHTML = `
